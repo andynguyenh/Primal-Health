@@ -18,9 +18,10 @@
   "homepage": "",
   "dependencies": {
     "axios": "^0.25.0",
+    "body-parser": "^1.19.2",
     "express": "^4.17.1",
+    "firebase": "^9.6.9",
     "firebase-admin": "^10.0.2",
-    "firebase-functions": "^3.19.0",
     "phosphor-react": "^1.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
