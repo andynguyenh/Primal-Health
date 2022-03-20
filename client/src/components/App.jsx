@@ -1,9 +1,20 @@
 import React from 'react';
 
-const App = () => {
-  return (
-    <div>Primal Health Test</div>
-  )
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+
+    }
+  }
+
+  render() {
+    return (
+      <div>Primal Health Test</div>
+    )
+  }
+
 }
+
 
 export default App;
