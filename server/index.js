@@ -12,11 +12,14 @@ app.use(express.json());
 // app.use(cors());
 // app.use(bodyParser.json());
 
+
+// Supplier routes
+app.post('/suppliers', controller.addSupplier);
+
 app.get('/suppliers', controller.getSuppliers);
 
 
-
-//FAQ routes
+// FAQ routes
 app.post('/faqs', controller.addFAQ);
 
 app.get('/faqs', controller.getFAQs);
