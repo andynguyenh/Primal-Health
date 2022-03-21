@@ -11,12 +11,23 @@ class App extends React.Component {
 
   componentDidMount() {
     this.getTodos()
+    this.getSuppliers()
   }
 
   getTodos() {
     axios.get('/todos')
     .then(data => {
       console.log(data.data);
+    })
+    .catch(err => {
+      console.log(err);
+    })
+  }
+
+  getSuppliers() {
+    axios.get('/suppliers')
+    .then(data => {
+      console.log('suppliers', data.data);
     })
     .catch(err => {
       console.log(err);
