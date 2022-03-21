@@ -1,37 +1,52 @@
 import React from 'react';
+import Nutritional from './Nutritional.jsx'
+import VideoDetail from './VideoDetail.jsx'
+import SupplierPage from './SupplierPage.jsx'
+import {BrowserRouter, Routes, Route, Link}  from "react-router-dom"
+
+// const App = () => {
+//   return (
+//     <BrowserRouter>
+//       <Routes>
+//           <Route path="/blogs" element={<VideoDetail />} />
+//           <Route path="/" element={<Nutritional />}>
+//           <Route index element={<SupplierPage />} />
+//           {/* <Route path="*" element={<NoPage />} /> */}
+//         </Route>
+//       </Routes>
+//     </BrowserRouter>
+//   );
+
 import axios from 'axios';
 
 class App extends React.Component {
   constructor(props) {
-    super(props);
-    this.state = {
+    super(props)
+    this.state = {}
 
-    }
+    this.get = this.get.bind(this);
+    this.post = this.post.bind(this);
   }
 
   componentDidMount() {
-    this.getTodos()
-    this.getSuppliers()
+    // this.get()
+    this.post()
   }
 
-  getTodos() {
-    axios.get('/todos')
-    .then(data => {
-      console.log(data.data);
+  get() {
+    axios.get('/api')
+    .then(results => {
+      console.log('results:', results)
     })
-    .catch(err => {
-      console.log(err);
-    })
+
   }
 
-  getSuppliers() {
-    axios.get('/suppliers')
-    .then(data => {
-      console.log('suppliers', data.data);
+  post() {
+    axios.post('/api')
+    .then(results => {
+      console.log('results:', results)
     })
-    .catch(err => {
-      console.log(err);
-    })
+
   }
 
   render() {
@@ -41,6 +56,16 @@ class App extends React.Component {
   }
 
 }
+// const App = () => {
+//   return (
+//     <div>
+//     <div>Primal Health Test</div>
+//     <Nutritional/>
+//     <VideoDetail/>
+//     <SupplierPage/>
+//     </div>
+//   )
+// }
 
 
 export default App;

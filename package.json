@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "webpack -w",
-    "build": "webpack",
+    "build": "webpack -d && copy src\\index.html dist\\index.html /y && webpack-dev-server --content-base src --inline --port 3000",
     "start": "nodemon server"
   },
   "repository": {
@@ -35,6 +35,7 @@
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "nodemon": "^2.0.4",
+    "react-router-dom": "^6.2.2",
     "webpack": "^5.68.0",
     "webpack-cli": "^4.9.2"
   }
