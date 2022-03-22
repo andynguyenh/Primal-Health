@@ -16,44 +16,44 @@ const SelectMeals = () =>{
           </HeaderText>
           <OneRecipeRow>
             <OneRecipe>
-              <img src="../../public/resources/selectmeals/item1.png" width='170' height='150'></img>
+              <img src="../assets/selectmeals/item1.png" width='170' height='150'></img>
               <RecipeName>Placeholder for meal</RecipeName>
               <RecipeInfo>Calories | Gluten-Free | Single Serve</RecipeInfo>
             </OneRecipe>
             <OneRecipe>
-              <img src="../../public/resources/selectmeals/item2.png" width='170' height='150'></img>
+              <img src="../assets/selectmeals/item2.png" width='170' height='150'></img>
               <RecipeName>Placeholder for meal</RecipeName>
               <RecipeInfo>Calories | Gluten-Free | Single Serve</RecipeInfo>
             </OneRecipe>
             <OneRecipe>
-              <img src="../../public/resources/selectmeals/item3.png" width='170' height='150'></img>
+              <img src="../assets/selectmeals/item3.png" width='170' height='150'></img>
               <RecipeName>Placeholder for meal</RecipeName>
               <RecipeInfo>Calories | Gluten-Free | Single Serve</RecipeInfo>
             </OneRecipe>
             <OneRecipe>
-              <img src="../../public/resources/selectmeals/item4.png" width='170' height='150'></img>
+              <img src="../assets/selectmeals/item4.png" width='170' height='150'></img>
               <RecipeName>Placeholder for meal</RecipeName>
               <RecipeInfo>Calories | Gluten-Free | Single Serve</RecipeInfo>
             </OneRecipe>
           </OneRecipeRow>
           <OneRecipeRow>
             <OneRecipe>
-              <img src="../../public/resources/selectmeals/item5.png" width='170' height='150'></img>
+              <img src="../assets/selectmeals/item5.png" width='170' height='150'></img>
               <RecipeName>Placeholder for meal</RecipeName>
               <RecipeInfo>Calories | Gluten-Free | Single Serve</RecipeInfo>
             </OneRecipe>
             <OneRecipe>
-              <img src="../../public/resources/selectmeals/item6.png" width='170' height='150'></img>
+              <img src="../assets/selectmeals/item6.png" width='170' height='150'></img>
               <RecipeName>Placeholder for meal</RecipeName>
               <RecipeInfo>Calories | Gluten-Free | Single Serve</RecipeInfo>
             </OneRecipe>
             <OneRecipe>
-              <img src="../../public/resources/selectmeals/item7.png" width='170' height='150'></img>
+              <img src="../assets/selectmeals/item7.png" width='170' height='150'></img>
               <RecipeName>Placeholder for meal</RecipeName>
               <RecipeInfo>Calories | Gluten-Free | Single Serve</RecipeInfo>
             </OneRecipe>
             <OneRecipe>
-              <img src="../../public/resources/selectmeals/item8.png" width='170' height='150'></img>
+              <img src="../assets/selectmeals/item8.png" width='170' height='150'></img>
               <RecipeName>Placeholder for meal</RecipeName>
               <RecipeInfo>Calories | Gluten-Free | Single Serve</RecipeInfo>
             </OneRecipe>
@@ -92,22 +92,22 @@ const SelectMeals = () =>{
         </SpecialtyHeader>
           <SpecialtyItemsContainer>
             <OneSpecialty>
-              <img src="../../public/resources/selectmeals/item5.png" width='130' height='115'></img>
+              <img src="../assets/selectmeals/item5.png" width='130' height='115'></img>
               <SpecialtyName>Placeholder for specialty</SpecialtyName>
               <SpecialtyInfo>$10.99</SpecialtyInfo>
             </OneSpecialty>
             <OneSpecialty>
-              <img src="../../public/resources/selectmeals/item5.png" width='130' height='115'></img>
+              <img src="../assets/selectmeals/item5.png" width='130' height='115'></img>
               <SpecialtyName>Placeholder for specialty</SpecialtyName>
               <SpecialtyInfo>$10.99</SpecialtyInfo>
             </OneSpecialty>
             <OneSpecialty>
-              <img src="../../public/resources/selectmeals/item5.png" width='130' height='115'></img>
+              <img src="../assets/selectmeals/item5.png" width='130' height='115'></img>
               <SpecialtyName>Placeholder for specialty</SpecialtyName>
               <SpecialtyInfo>$10.99</SpecialtyInfo>
             </OneSpecialty>
             <OneSpecialty>
-              <img src="../../public/resources/selectmeals/item5.png" width='130' height='115'></img>
+              <img src="../assets/selectmeals/item5.png" width='130' height='115'></img>
               <SpecialtyName>Placeholder for specialty</SpecialtyName>
               <SpecialtyInfo>$10.99</SpecialtyInfo>
             </OneSpecialty>

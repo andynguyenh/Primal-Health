@@ -17,32 +17,32 @@ const PersonalizeYourPlan = (props) => {
           <StepOneButtonContainer>
 
             <PreferenceButtons>
-              <Image src="../../public/resources/preferences/meatandveggies.png" width='70' height='40'></Image>
+              <Image src="../assets/preferences/meatandveggies.png" width='70' height='40'></Image>
               Meat and Veggies
             </PreferenceButtons>
 
             <PreferenceButtons>
-              <img src="../../public/resources/preferences/veggies.png" width='70' height='40'></img>
+              <img src="../assets/preferences/veggies.png" width='70' height='40'></img>
               Veggies
             </PreferenceButtons>
 
             <PreferenceButtons>
-              <Image src="../../public/resources/preferences/familyfriendly.png" width='40' height='40'></Image>
+              <Image src="../assets/preferences/familyfriendly.png" width='40' height='40'></Image>
               Family Friendly
             </PreferenceButtons>
 
             <PreferenceButtons>
-              <Image src="../../public/resources/preferences/fitandwholesome.png" width='60' height='40'></Image>
+              <Image src="../assets/preferences/fitandwholesome.png" width='60' height='40'></Image>
               Fit & Wholesome
             </PreferenceButtons>
 
             <PreferenceButtons>
-              <Image src="../../public/resources/preferences/quickandeasy.png" width='40' height='40'></Image>
+              <Image src="../assets/preferences/quickandeasy.png" width='40' height='40'></Image>
               Quick & Easy
             </PreferenceButtons>
 
             <PreferenceButtons>
-              <img src="../../public/resources/preferences/pescatarian.png" width='75' height='40'></img>
+              <img src="../assets/preferences/pescatarian.png" width='75' height='40'></img>
               Pescatarian
             </PreferenceButtons>
 
