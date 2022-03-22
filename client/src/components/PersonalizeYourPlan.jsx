@@ -5,18 +5,6 @@ import ProgressMasthead from '../shared/ProgressMasthead.jsx'
 
 const PersonalizeYourPlan = (props) => {
 
-  const [buttonClick, setButtonClick] = useState('#C4C4C4')
-
-  const handleClick = () => {
-    if (buttonClick === '#C4C4C4') {
-      setButtonClick('#26BF00')
-    } else {
-      setButtonClick('#C4C4C4')
-    }
-  }
-
-
-
   return (
     <PersonalizeYourPlanContainer>
       <ProgressMasthead />
@@ -113,7 +101,6 @@ const PersonalizeYourPlan = (props) => {
 const PersonalizeYourPlanContainer = Styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 `
-
 const Header = Styled.div`
   font-family: 'Lato', sans-serif;
   text-align: center;
@@ -148,19 +135,19 @@ const StepOneButtonContainer = Styled.div`
   padding-left: 15px;
 `
 const PreferenceButtons = Styled.button`
-font-family: 'Lato', sans-serif;
-font-size: 13px;
-margin: 0px 0px 18px 12px;
-background-color: white;
-border-color: #C4C4C4;
-border-radius: 10px;
-width: 119px;
-height: 69px;
-&:hover {
-  border-color: #26BF00;
+  font-family: 'Lato', sans-serif;
+  font-size: 13px;
+  margin: 0px 0px 18px 12px;
+  background-color: white;
+  border-color: #C4C4C4;
   border-radius: 10px;
-  border: 2.5px solid #26BF00;
-}
+  width: 119px;
+  height: 69px;
+  &:hover {
+    border-color: #26BF00;
+    border-radius: 10px;
+    border: 2.5px solid #26BF00;
+  }
 `
 const StepTwoHeader = Styled.div`
   margin: 20px;
@@ -252,7 +239,4 @@ const ContinueButton = Styled.button`
   color: #26BF00;
   font-size: 18px;
 `
-
-
-export default PersonalizeYourPlan
-
+export default PersonalizeYourPlan;
