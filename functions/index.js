@@ -19,7 +19,6 @@
 // // Your web app's Firebase configuration
 // // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 
-
 // // Initialize Firebase
 // const app = initializeApp(firebaseConfig);
 // const analytics = getAnalytics(app);
@@ -55,6 +54,8 @@ import { getAnalytics } from "firebase/analytics";
 
 // Users
 app.post('/login', loginUser);
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
